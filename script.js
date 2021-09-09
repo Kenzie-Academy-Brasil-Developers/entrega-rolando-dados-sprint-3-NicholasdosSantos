@@ -22,7 +22,7 @@ function paragrafos(){
     numeros.className = "num";
     newElement.appendChild(numeros);
         if(i !== 10){
-            numeros.innerHTML += [i + 2] + ": " count[i] + "|"
+            numeros.innerHTML += [i + 2] + ": " + count[i] + "|"
         }else {
             numeros.innerHTML += "12: " + count[i]
         }
