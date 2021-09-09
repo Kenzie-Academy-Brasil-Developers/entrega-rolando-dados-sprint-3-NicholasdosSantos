@@ -41,6 +41,7 @@ function fazendoDivs(){
     divs.style.height = `${count[i]}px`;
     divs.style.width = `10px`;
     divBlocos.appendChild(divs);
+        
     }
 }
 fazendoDivs()
